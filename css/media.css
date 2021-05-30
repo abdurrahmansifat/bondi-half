@@ -1,0 +1,251 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  /*header start*/
+.logo {
+   width: 90%;
+}
+.menu ul li a {
+    margin-left: 0px;
+}
+.h_line {
+    display: none;
+}
+.b-s[data-bs-popper] {
+    margin-left: 175px;
+    margin-top: 20%;
+    border: none;
+}
+.b-s {
+    padding: 4px 0;
+    margin: 16px;
+    background-color: transparent;
+}
+.h_f {
+    width: 85%;
+}
+.h_b {
+   margin-left: -25px;
+}
+.h_login {
+    margin-top: 15px;
+    margin-left: 0;
+    width: 85px;
+    height: 35px;
+}
+/*header end*/  
+/*slider start*/
+.s_h1 {
+    margin-top: 70px;
+    font-size: 30px;
+}
+.s_p {
+    margin-top: -4px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.s_btn {
+    margin-bottom: 30px;
+    width: 140px;
+    height: 32px;
+}
+}
+/*slider end*/
+/*service start*/
+.service {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.srv_top_h1 {
+    margin-top: 20px;
+}
+.srv_top_hr {
+   margin-bottom: 30px;
+ }
+ .srv_b_one {
+    height: 100px;
+}
+.srv_icon_p {
+    margin-right: -38px;
+    margin-top: -69px;
+    height: 40px;
+}
+ .srv_bottom_p {
+    line-height: 25px;
+    letter-spacing: .5px;
+}
+/*service end*/
+/*desaign start*/
+.srv_top_hr {
+    margin-bottom: 20px;
+}
+.design{
+    padding-top:30px;
+	padding-bottom:30px;
+}
+.mb_70 {
+    margin-top: 15px;
+}
+.nav-link {
+   margin-left: -26px ;
+    margin-right: 0px ;
+ }
+ .nav-link:hover{
+ 	background-color: transparent;
+}
+/*design end*/
+/*about us*/
+.aboutus {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.abt_h1{
+	font-size:33px;
+}
+.about_text {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.about_p_t {
+    word-spacing: 0;
+}
+.about_btn {
+    width: 160px;
+    height: 38px;
+}
+/*about us end*/
+/*project*/
+.project {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.prjct_h1 {
+    font-size: 30px;
+}
+/*project end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+ /*header start*/
+.menu ul li a {
+    margin-left: 0px;
+}
+.h_line {
+    display: none;
+}
+.b-s[data-bs-popper] {
+    margin-left: -5px ;
+    margin-top: 11% ;
+    border: none;
+}
+.b-s {
+    padding: 4px 0;
+    margin: 16px;
+    background-color: transparent;
+}
+.h_login {
+    margin-top: 15px;
+    margin-left: 0;
+}
+/*header end*/
+/*slider start*/
+.s_h1 {
+    margin-top: 45px;
+}
+.s_btn {
+    margin-bottom: 35px;
+}
+/*slider end*/
+/*service start*/
+.service {
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+.srv_top_hr {
+     margin-bottom: 50px;
+ }
+ .srv_bottom_p {
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+/*service end*/
+/*desaign start*/
+.design{
+    padding-top:40px;
+	padding-bottom:45px;
+}
+.nav-link {
+    margin-left: 5px;
+    margin-right: 5px;
+ }
+/*design end*/
+/*about us*/
+.about_text {
+    text-align: center !important;
+    margin-top: 15px;
+    margin-bottom: -70px;
+}
+/*about us end*/
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a {
+    margin-left: 0px;
+}
+.h_line {
+    display: none;
+}
+.b-s[data-bs-popper] {
+    margin-left: 173px;
+    margin-top: 10%;
+    border: none;
+}
+.b-s {
+    padding: 4px 0x;
+    margin: 16px;
+    background-color: transparent;
+}
+.h_login {
+    margin-top: 15px;
+    margin-left: 0px;
+}
+/*header end*/
+/*service start*/
+.srv_bottom_p {
+    letter-spacing: .5px;
+    word-spacing: .5px;
+}
+/*service end*/
+/*about us*/
+.about_img {
+    margin-top: 116px;
+}
+.about_p_t {
+    word-spacing: 0px;
+}
+/*about end*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ /*service start*/
+   .srv_bottom_p {
+    letter-spacing: .5px;
+}
+/*service end*/
+
+}
+
+/*Extra Large devices (Extra large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+}
+
+/*Extra Extra large devices (Extra Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+  
+}
